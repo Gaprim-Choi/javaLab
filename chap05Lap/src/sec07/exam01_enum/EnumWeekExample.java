@@ -4,6 +4,8 @@ import java.util.Calendar;
 
 public class EnumWeekExample {
 	public static void main(String[] args) {
+		
+		// 
 		Week today = null;
 		
 		Calendar cal = Calendar.getInstance();
@@ -26,12 +28,12 @@ public class EnumWeekExample {
 				today = Week.SATURDAY; break;		
 		}
 		
-		System.out.println("¿À´Ã ¿äÀÏ: "+ today);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: "+ today);
 		
 		if(today == Week.SUNDAY) {
-			System.out.println("ÀÏ¿äÀÏ¿¡´Â Ãà±¸¸¦ ÇÕ´Ï´Ù.");
+			System.out.println("ï¿½Ï¿ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ ï¿½à±¸ï¿½ï¿½ ï¿½Õ´Ï´ï¿½.");
 		} else {
-			System.out.println("¿­½ÉÈ÷ ÀÚ¹Ù °øºÎÇÕ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 		}
 	}
 }

@@ -3,7 +3,7 @@ package sec06.exam04_main_argument;
 public class MainStringArrayArgument {
 	public static void main(String[] args) {
 		if (args.length != 2) {
-			System.out.println("ÇÁ·Î±×·¥ÀÇ »ç¿ë¹ı");
+			System.out.println("í”„ë¡œê·¸ë¨ì„ ì‹¤í–‰í•˜ë ¤ë©´");
 			System.out.println("java MainStringArrayArgument num1 num2");
 			System.exit(0);
 		}
